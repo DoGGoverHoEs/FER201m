@@ -1,0 +1,74 @@
+/* Add these styles to your existing CSS or create a new CSS file */
+
+.container {
+    display: flex;
+}
+
+.account, .thongitnbatdongsan, .thongtinbatdongsan1, .thongtinbaiviet {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.buuton-logout {
+    width: 100px;
+    height: 30px;
+    background-color: #dc3545;
+    /* Bootstrap's danger color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buuton-logout:hover {
+    background-color: #bd2130;
+    /* Darker shade for hover effect */
+}
+
+.thongitnbatdongsan {
+    background-color: aqua;
+}
+
+.thongtinbaiviet {
+    background-color: blue;
+}
+
+.thongtinbatdongsan1 {
+    background-color: yellow;
+}
+
+.tieude {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+/* Style for the image upload section */
+
+
+.Avatar {
+    margin-top: 10px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    /* Bootstrap's primary color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker shade for hover effect */
+}

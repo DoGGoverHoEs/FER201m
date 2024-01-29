@@ -1,0 +1,141 @@
+.footer-container {
+    background-color: #2C2D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer1 {
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+    background-color: #222433;
+    width: 70%;
+}
+
+.list-item {
+    margin-top: 10px;
+    margin-inline: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.logo-item {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.text-item {
+    color: white;
+    font-weight: 500;
+}
+
+.text-item:last-child {
+    margin-bottom: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.col-md-3 {
+    justify-content: left;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer2 {
+    background-color: #2C2D3F
+}
+
+.lgo-bds {
+    align-content: center;
+    width: 250px;
+    height: 180px;
+
+}
+
+.text-intro {
+    margin-left: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.duan, .dichvu, .email {
+    align-self: flex-start;
+}
+
+.text-duan, .text-dichvu, .text-email {
+    margin-top: 50px;
+    color: white;
+}
+
+.divider {
+    color: white;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.project-list a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.project-list a:first-child {
+    margin-top: 10px;
+}
+
+.project-list a:hover {
+    color: rgba(98, 215, 55, 0.921);
+}
+
+.list {
+    flex-direction: column;
+}
+
+.input-email {
+    width: 190px;
+    height: 40px;
+    margin-right: 0;
+    border-radius: 7px 0 0 7px;
+    border: 0px solid #B8DD62;
+}
+
+.submit-email {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 0px solid #B8DD62;
+    background-color: #B8DD62;
+
+    border-radius: 0 7px 7px 0;
+}
+
+.button-image {
+    width: 30px;
+    height: 30px;
+}
+
+.buton-email {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}

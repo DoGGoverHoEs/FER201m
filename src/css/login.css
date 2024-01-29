@@ -1,0 +1,93 @@
+.dangki {
+    display: flex;
+
+}
+
+.link-dangki {
+    text-decoration: none;
+    color: #92c222f4;
+    font-weight: 600;
+}
+
+.dangnhap {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button-login {
+    width: 400px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+
+}
+
+.button-submit {
+    width: 400px;
+    height: 50px;
+    background-color: #B8DD62;
+    border: 1px solid #B8DD62;
+    color: white;
+    font-weight: 600;
+}
+
+.button-login {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.button-submit {
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.remember-login {
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px;
+}
+
+.forget-pass {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.re-fo {
+    display: flex;
+}
+
+.form-dangnhap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-dangnhap {
+    margin-top: 30px;
+}
+
+.text-dangki {
+
+    font-weight: 400;
+    margin-right: 5px;
+    margin-bottom: 35px;
+}
+
+.text-dangki, .link-dangki {
+    font-size: 18px;
+}
+
+::placeholder {
+    padding-left: 10px;
+    color: black;
+}
+
+.dangnhapkhac {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
